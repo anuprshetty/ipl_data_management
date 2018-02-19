@@ -1,0 +1,17 @@
+version: "3" # Version of docker-compose
+
+services:
+  mysql-server:
+    image: "mysql:latest"
+    container_name: mysql-server-container
+    hostname: mysql-server
+    restart: "no"
+    environment:
+      MYSQL_DATABASE: "ipl"
+      MYSQL_USER: "mysql"
+      MYSQL_PASSWORD: "mysql"
+      MYSQL_ROOT_PASSWORD: "mysql"
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./docker_volumes/mysql_data/:/var/lib/mysql/
