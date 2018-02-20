@@ -1,0 +1,3 @@
+.DS_Store
+mysql_server/docker_volumes/mysql_data/*
+!mysql_server/docker_volumes/mysql_data/.gitkeep
