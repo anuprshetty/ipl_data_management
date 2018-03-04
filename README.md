@@ -12,4 +12,10 @@
 
 ![Attribute symbols](./images/attribute_symbols.png)
 
+## Commands
+
+- docker compose --file mysql_server/docker-compose.yaml up --build --detach
+- docker compose --file mysql_server/docker-compose.yaml down
+- docker compose --file mysql_server/docker-compose.yaml logs --timestamps --follow
+
 
