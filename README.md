@@ -18,4 +18,11 @@
 - docker compose --file mysql_server/docker-compose.yaml down
 - docker compose --file mysql_server/docker-compose.yaml logs --timestamps --follow
 
+## Tools and Technologies Used
+
+- MySQL Server
+- MySQL Workbench
+- MySQL Command Line Client
+- MySQL query language
+
 
