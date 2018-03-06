@@ -25,4 +25,11 @@
 - MySQL Command Line Client
 - MySQL query language
 
+## Database Setup
+
+- Run MySQL Server docker container.
+- Open MySQL Workbench.
+- Import and execute **ipl.sql** and **normalized_ipl.sql** files in MySQL Workbench.
+- Play with **ipl** database.
+
 
