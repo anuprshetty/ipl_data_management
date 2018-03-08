@@ -55,4 +55,8 @@ IPL database contains 8 tables.
 8. total_score (A player's total score in all the matches)  
    ![total_score](./images/total_score_table.png)
 
+## Normalization
+
+Normalization is the process of minimizing redundancy from a relation or set of relations in a database.
+
 
