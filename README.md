@@ -32,4 +32,27 @@
 - Import and execute **ipl.sql** and **normalized_ipl.sql** files in MySQL Workbench.
 - Play with **ipl** database.
 
+## Project Explanation
+
+IPL database contains 8 tables.
+
+<!--- Use 2 SPACEs at the end of a line for line break(\n). -->
+
+1. player  
+   ![player](./images/player_table.png)
+2. team  
+   ![team](./images/team_table.png)
+3. owner  
+   ![owner](./images/owner_table.png)
+4. coach  
+   ![coach](./images/coach_table.png)
+5. c_match (Current match)  
+   ![c_match](./images/c_match_table.png)
+6. venue  
+   ![venue](./images/venue_table.png)
+7. individual_score (A player's score in a perticular match)  
+   ![individual_score](./images/individual_score_table.png)
+8. total_score (A player's total score in all the matches)  
+   ![total_score](./images/total_score_table.png)
+
 
