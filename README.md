@@ -59,4 +59,13 @@ IPL database contains 8 tables.
 
 Normalization is the process of minimizing redundancy from a relation or set of relations in a database.
 
+### First Normal Form (1NF)
+
+_If the table is flat, i.e., no composite and multivalued attributes, then we say that the relation is in 1NF._
+
+**player** table contains a multivalued attribute **role**. So **player** table is not in 1NF.
+
+**_Conversion of player table to 1NF:_**  
+![1NF Conversion](./images/1nf_conversion.png)
+
 
