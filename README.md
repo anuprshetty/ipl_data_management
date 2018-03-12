@@ -68,4 +68,16 @@ _If the table is flat, i.e., no composite and multivalued attributes, then we sa
 **_Conversion of player table to 1NF:_**  
 ![1NF Conversion](./images/1nf_conversion.png)
 
+### Second Normal Form (2NF)
+
+_A relation R is in 2NF if and only if:_
+
+- _R is in 1NF_
+- _There is no partial dependency of a non-prime attribute to any key of R._
+
+**player_1nf** table has primary key **(p_id, role)**. But all the non-prime attributes of **player_1nf** table are partially dependent on **p_id**. So **player_1nf** table is not in 2NF.
+
+**_Conversion of player_1nf table to 2NF:_**  
+![2NF Conversion](./images/2nf_conversion.png)
+
 
