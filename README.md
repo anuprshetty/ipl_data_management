@@ -92,4 +92,13 @@ In **player_p2nf** table, non-prime attributes **(age, nationality)** are derive
 **_Conversion of player_p2nf table to 3NF:_**  
 ![3NF Conversion](./images/3nf_conversion.png)
 
+### Boyce-Codd Normal Form (BCNF)
+
+_A relation R is in BCNF if and only if:_
+
+- _R is in 3NF_
+- _Whenever a non-trivial functional dependency, X --> A holds in R, then X should be a superkey of R. i.e., Determinants of all non-trivial functional dependencies must be superkeys._
+
+Determinants of all the non-trivial functional dependencies in **player_p3nf** table are superkeys. So **player_p3nf** table is already in BCNF.
+
 
