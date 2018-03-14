@@ -80,4 +80,16 @@ _A relation R is in 2NF if and only if:_
 **_Conversion of player_1nf table to 2NF:_**  
 ![2NF Conversion](./images/2nf_conversion.png)
 
+### Third Normal Form (3NF)
+
+_A relation R is in 3NF if and only if:_
+
+- _R is in 2NF_
+- _In any functional dependency, there shouldn't be the case that a non-prime attribute is determinied(derived) by another non-prime attribute._
+
+In **player_p2nf** table, non-prime attributes **(age, nationality)** are derived by the non-prime attribure **player_name**. So **player_p2nf** table is not in 3NF.
+
+**_Conversion of player_p2nf table to 3NF:_**  
+![3NF Conversion](./images/3nf_conversion.png)
+
 
