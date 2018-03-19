@@ -114,3 +114,8 @@ Determinants of all the non-trivial functional dependencies in **player_p3nf** t
 - Functional dependencies and lossless decomposition of tables based on normalization techniques.
 - Understanding the usage and importance of indexing, B trees and B+ trees in relational database tables.
 
+## References
+
+- [MySQL official website](https://www.mysql.com/)
+
+[Back To The Top](#ipl-data-management)
