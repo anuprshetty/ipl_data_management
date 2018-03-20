@@ -105,7 +105,7 @@ Determinants of all the non-trivial functional dependencies in **player_p3nf** t
 
 - **IPL** database system can be integrated with a web service so that user can easily interact with IPL data using web user interface.
 
-## What I Learnt?
+## Learnings from this project
 
 - Hands-on experience of working with MySQL Server, MySQL Workbench and MySQL Command Line Client.
 - Designing efficient relational database model.
